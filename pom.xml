@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.home.learning.poc</groupId>
             <artifactId>spring-lib</artifactId>
-            <version>0.0.3-SNAPSHOT</version>
+            <version>0.0.5-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
