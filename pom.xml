@@ -46,5 +46,8 @@
             </plugin>
         </plugins>
     </build>
-
+    <modules>
+        <module>spring-app-2</module>
+        <module>spring-app-3</module>
+    </modules>
 </project>
