@@ -1,4 +1,4 @@
-package com.home.learning.poc.springappcode.application;
+package com.home.learning.poc.app2.application;
 
 import com.home.learning.poc.springlib.annotation.TestDataKeys;
 import com.home.learning.poc.springlib.testdata.TestDataProvider;

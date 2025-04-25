@@ -3,17 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.4</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.home.learning.poc</groupId>
+        <artifactId>spring-app-code</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.home.learning.poc</groupId>
-    <artifactId>spring-app-code</artifactId>
+    <artifactId>spring-app-2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-app-code</name>
-    <description>spring-app-code</description>
-    <packaging>pom</packaging>
+    <name>spring-app-2</name>
+    <description>spring-app-2</description>
     <url/>
     <licenses>
         <license/>
@@ -32,9 +29,14 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.home.learning.poc</groupId>
-            <artifactId>spring-lib</artifactId>
-            <version>0.0.6-SNAPSHOT</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

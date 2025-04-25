@@ -1,8 +1,8 @@
-package com.home.learning.poc.springappcode.teststeps;
+package com.home.learning.poc.app2.teststeps;
 
+import com.home.learning.poc.app2.application.Keywords;
+import com.home.learning.poc.app2.application.TestKeywords;
 import com.home.learning.poc.springlib.annotation.TestSteps;
-import com.home.learning.poc.springappcode.application.Keywords;
-import com.home.learning.poc.springappcode.application.TestKeywords;
 import com.home.learning.poc.springlib.testdata.TestDataProvider;
 
 public class Steps {
